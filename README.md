@@ -8,7 +8,7 @@ Spring Boot Microservices that comply to the CQRS &amp; Event Sourcing patterns,
 ```docker run -p 5432:5432 --name some-postgres -e POSTGRES_PASSWORD=dbpassword -d postgres```
 
 ### launch dev Cluster for Kafka and Zookeeper from docker-compose file as
-```docker-compose up -d```
+```docker-compose -f docker-compose-kafka.yaml up -d```
 
 ### now normally launch Spring Applications
 #### account.cmd this is Event Sourcing application 
